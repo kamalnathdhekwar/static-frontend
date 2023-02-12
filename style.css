@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box ;
+     font-family: 'Poppins', sans-serif;
+}
+body {
+    text-decoration: none;
+  
+  height: 100vh;
+  width: 100vw;
+  background-color: #edf1fd;
+  display: flex;
+  flex-direction: column;
+ 
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px 0;
+}
+
+.btn{
+    margin-right: 60px;
+    color: rgb(251, 248, 248);
+    background-color: rgb(145, 38, 246);
+    text-decoration: none;
+    border-radius: 10px;
+ 
+
+}
+button a{
+    color: azure;
+    cursor: pointer;
+}
+button a:hover{
+    color:black ;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+button{
+    color: rgb(251, 248, 248);
+    background-color: rgb(145, 38, 246); 
+    padding: 13px;
+    border: none;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+ul{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 700px;
+    margin-left: 10px;
+ 
+}
+h1{
+    font-size: 50px;
+}
+
+ul li{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  
+}
+ul li a{
+    color: black;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+ul li:hover{
+  text-decoration: underline;
+  background-color: aqua;
+   
+}
+section{
+    display: flex;
+   
+}
+h1{
+    font-size: 69px;
+   margin-right: 60px;
+   margin-top: 80px;
+   color: rgb(56, 2, 108);
+}
+span{
+    color: rgb(135, 6, 255);
+}
+div p{
+    margin-top: 29px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.left-section{
+    width: 40%;
+ margin-right: 30px;
+ padding-top: 30px;
+    left: 1px;
+    
+}
+.services{
+  padding-top: 50px;
+   
+
+}
+.right-section img{
+    display: flex;
+    align-items: center;
+    
+}
